@@ -1,0 +1,129 @@
+ /* Name:Guangwei Wang  Student Number:8818318*/
+
+ #div1 {
+     background-color: rgb(186 33 33);
+ }
+
+ #div1 header div {
+     color: #ffffff;
+ }
+
+ #div2 nav {
+     background-color: rgb(7 124 136);
+ }
+
+ #div2 nav ul li ul {
+     background-color: #414b21;
+ }
+
+ #div2 nav ul li ul li a {
+     color: white;
+ }
+
+ #div2 nav ul li ul li:hover a:hover {
+     color: #4800ff;
+     background-color: #e29754;
+ }
+
+ #div2 nav a {
+     color: #ffffff;
+ }
+
+ #div3 {
+     color: rgb(255, 174, 0);
+ }
+
+ main {
+     background-color: #780000;
+ }
+
+ main textdiv {
+     color: #e7e3e3;
+ }
+
+ #div5 {
+     background-color: #780000;
+     color: #e7e3e3;
+ }
+
+ #div6 {
+     background-color: #780000;
+     color: #e7e3e3;
+ }
+
+ #div7 {
+     color: rgb(87 20 20);
+     background-color: goldenrod;
+ }
+
+ #div8 {
+     background-color: goldenrod;
+ }
+
+ #div8 leftcard bottomText {
+     color: rgb(100, 28, 28);
+ }
+
+ #div8 middlecard bottomText {
+     color: rgb(86, 23, 23);
+ }
+
+ #div8 rightcard bottomText {
+     color: rgb(87, 31, 31);
+ }
+
+ #div9 {
+     background-color: #927916cc;
+ }
+
+ #div9 leftNav {
+     color: rgb(88, 19, 19);
+ }
+
+ #div9 leftNav ul li a {
+     color: #7d1760;
+ }
+
+ #div9 middleNav {
+     color: rgb(93, 25, 25);
+ }
+
+ #div9 middleNav ul li a {
+     color: #7d1760;
+ }
+
+ #div9 rightNav {
+     color: rgb(91, 19, 19);
+ }
+
+ #div9 rightNav ul li a {
+     color: #7d1760;
+ }
+
+ .container div {
+     color: rgb(87, 20, 20);
+ }
+
+ a:hover {
+     color: #ededed;
+     background-color: #da1e1e;
+ }
+
+ a:focus {
+     color: #2cba2a;
+     background-color: #4d1eda;
+ }
+
+ .cardImg:hover {
+     color: #ededed;
+     background-color: #88caf4;
+ }
+
+
+ #div10 {
+     background-color: #927916cc;
+ }
+
+ form .button {
+     background-color: #b37937;
+ }

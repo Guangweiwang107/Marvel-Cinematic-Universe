@@ -1,0 +1,323 @@
+/* Name:Guangwei Wang  Student Number:8818318*/
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 0.7fr 4fr 2.5fr 4fr 4fr 0.5fr 5fr 2.3fr 1fr;
+    grid-gap: 10px;
+    height: 2500px;
+}
+
+#div1 {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    border: 2px solid rgb(0, 95, 105);
+    border-radius: 10px;
+}
+
+#div1 header div {
+    line-height: 76px;
+    text-align: center;
+}
+
+#div2 nav {
+    padding: 20px 0;
+    text-align: center;
+    line-height: 25px;
+    border: 2px solid rgb(0, 95, 105);
+    border-radius: 10px;
+}
+
+#div2 nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#div2 nav>ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+#div2 nav ul li ul {
+    width: 200px;
+    position: absolute;
+    z-index: 888;
+    text-align: left;
+}
+
+#div2 nav ul li ul li a {
+    padding: 10px;
+    display: block;
+}
+
+#div2 nav ul li ul {
+    display: none;
+}
+
+#div2 nav ul li:hover ul {
+    display: block;
+}
+
+#div2 nav a {
+    text-decoration: none;
+    padding: 0 30px;
+}
+
+#div3 {
+    background-image: url(../images/dd5r35v-e8431f3b-2f7a-4b39-9945-fa6611506b83.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 95, 105);
+}
+
+#div4 {
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 95, 105);
+}
+
+#div4 main {
+    padding: 16px;
+}
+
+#div5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 95, 105);
+}
+
+#div5 textdiv {
+    padding: 0.2em 2em;
+}
+
+#div5 imgdiv {
+    background-image: url(../images/dc9049-civilwar_master.jpg);
+    clip-path: polygon(50% 0%, 93% 8%, 100% 43%, 91% 94%, 70% 100%, 32% 100%, 4% 95%, 0% 43%, 13% 3%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(0, 95, 105);
+    border-radius: 3px;
+}
+
+#div6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 95, 105);
+}
+
+#div6 imgdiv {
+    background-image: url(../images/marvel-secret-wars.webp);
+    clip-path: polygon(100% 0%, 90% 51%, 100% 100%, 25% 100%, 0 50%, 25% 0%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(0, 95, 105);
+    border-radius: 3px;
+}
+
+#div6 textdiv {
+    padding: 0.2em 2em;
+}
+
+#div7 {
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 95, 105);
+}
+
+#div8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    border-radius: 9px;
+}
+
+#div8 leftcard {
+    box-shadow: #666 10px 10px 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 190px 200px 50px;
+    border: 1px solid rgb(0, 95, 105);
+    border-radius: 3px;
+
+}
+
+#div8 leftcard topImg {
+    border-radius: 5px;
+}
+
+
+#div8 middlecard {
+    box-shadow: #666 10px 10px 20px;
+    border: 1px solid rgb(0, 95, 105);
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 190px 200px 50px;
+}
+
+#div8 middlecard topImg {
+    border-radius: 5px;
+}
+
+#div8 rightcard {
+    box-shadow: #666 10px 10px 20px;
+    border: 1px solid rgb(0, 95, 105);
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 190px 200px 50px;
+}
+
+#div8 rightcard topImg {
+    border-radius: 5px;
+}
+
+#div9 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 9px;
+}
+
+#div9 leftNav {
+    border: 1px solid rgb(0, 95, 105);
+    border-radius: 7px;
+    padding: 0.2em 2em;
+}
+
+#div9 leftNav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#div9 leftNav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+#div9 middleNav {
+    border: 1px solid rgb(0, 95, 105);
+    border-radius: 7px;
+    padding: 0.2em 2em;
+}
+
+#div9 middleNav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#div9 middleNav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+#div9 rightNav {
+    border: 1px solid rgb(0, 95, 105);
+    border-radius: 7px;
+    padding: 0.2em 2em;
+}
+
+#div9 rightNav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#div9 rightNav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+body {
+    width: 1120px;
+    border: 1px solid black;
+    margin: 20px auto;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+#div10 {
+    text-align: center;
+    line-height: 90px;
+    border-radius: 10px;
+}
+
+#div8 bottomText h2 {
+    text-align: center;
+}
+
+.container div logo a img {
+    margin-top: 6px;
+    height: 115px;
+    border-radius: 10px;
+}
+
+#div8 img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#div8 leftcard {
+    border-radius: 8px;
+}
+
+#div8 middlecard {
+    border-radius: 8px;
+}
+
+#div8 rightcard {
+    border-radius: 8px;
+}
+
+#div8 leftcard>a {
+    cursor: pointer;
+    border-radius: 9px;
+    filter: none;
+    border: 1px solid #36587c;
+    display: inline-block;
+    width: 99%;
+    text-align: center;
+    line-height: 45px;
+    height: 100%;
+    object-fit: cover;
+}
+
+#div8 middlecard>a {
+    cursor: pointer;
+    border-radius: 9px;
+    filter: none;
+    border: 1px solid #36587c;
+    display: inline-block;
+    width: 99%;
+    text-align: center;
+    line-height: 45px;
+    height: 100%;
+    object-fit: cover;
+}
+
+#div8 rightcard>a {
+    cursor: pointer;
+    border-radius: 9px;
+    filter: none;
+    border: 1px solid #36587c;
+    display: inline-block;
+    width: 99%;
+    text-align: center;
+    line-height: 45px;
+    height: 100%;
+    object-fit: cover;
+}
+
+#div8 rightcard topImg a img {
+    height: 108%;
+}

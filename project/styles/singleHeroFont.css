@@ -1,0 +1,49 @@
+       /* Name:Guangwei Wang  Student Number:8818318*/
+
+
+       .container div {
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           font-weight: bold;
+       }
+
+       #div1 header div {
+           font-family: Georgia, 'Times New Roman', Times, serif;
+           font-weight: bold;
+       }
+
+
+       #div2 nav a {
+           font-size: 21.5px;
+           font-weight: bold;
+       }
+
+       #div9 leftNav {
+           font-weight: bold;
+       }
+
+       #div9 leftNav ul li a {
+           font-size: 20px;
+           font-weight: bold;
+       }
+
+       #div9 middleNav {
+           font-weight: bold;
+       }
+
+       #div9 middleNav ul li a {
+           font-size: 20px;
+           font-weight: bold;
+       }
+
+       #div9 rightNav {
+           font-weight: bold;
+       }
+
+       #div9 rightNav ul li a {
+           font-size: 20px;
+           font-weight: bold;
+       }
+
+       footer {
+           font-size: 20px;
+       }
